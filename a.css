@@ -1,0 +1,46 @@
+.IFuOkc {
+  display: table-cell;
+  
+  height:400px;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding-top:50px;
+}
+h1{
+  color:white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:50px;
+  text-align:center;
+  margin-top:150px;
+
+}
+
+@media only screen and (min-width: 1000px){
+.IFuOkc{
+  padding-bottom: 0;
+  padding-top: 0;
+}
+}
+@media only screen and (max-width: 600px){
+  .sitename{
+      font-size:30px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  h1 {
+    float: none;
+    display: block;
+    
+    font-size:30px;
+    font-style:bold;
+    
+  }
+  h1 {
+    float: none;
+  }
+}
